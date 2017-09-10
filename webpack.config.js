@@ -18,5 +18,11 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(__dirname, 'app'),
+     //  proxy: {
+     //    '/': {
+     //      target: 'localhost:9292',
+     //      secure: false
+     //    }
+     // }
   }
 };
